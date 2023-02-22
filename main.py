@@ -1,6 +1,9 @@
 from Aleix_B import book
 from Aleix_B import user
 from Aleix_B import university
+from ExerciciA import animal
+from ExerciciA import vehicle
+from ExerciciA import school
 
 l1 = book(" Harry Potter", " Pablo Rosado", " Norma Editorial", " 345", " Dura", " Català \n")
 l1.informacio()
@@ -32,5 +35,30 @@ uni2.informa()
 uni2.setPreu(" 3500€")
 uni2.informa()
 
+a1 = animal("Puma", "Carn", "4 anys", "Gris", "Mamifer", "Mascle \n")
+a2 = animal("Lleó", "Carn", "7 anys", "Daurada", "Mamifer", "Femella \n")
+a1.text()
+a2.text()
+a1.setEdat("3 anys")
+a2.setSexe("Mascle")
+a1.text()
+a2.text()
 
+v1 = vehicle("Ford Falcon", "Gasolina", "100.000", "Blau", "Deportiu", "112 \n")
+v2 = vehicle("Honda Civic", "Diesel", "50.000", "Negre", "4x4", "190 \n")
+v1.text2()
+v2.text2()
+v1.setColor("Vermell")
+v2.setKilometres("0")
+v1.text2()
+v2.text2()
+
+s1 = school("Escuela Secundaria Sor Maria Josefa Rossello", "Irurtia 8258", "Escola Secundaria Obligatoria", "3", "540", "50 \n")
+s2 = school("Institut Viladomat", "C. del Consell de Cent, 148", "Escola Secundaria Obligatoria", "4", "620", "55  \n")
+s1.text3()
+s2.text3()
+s1.setAlumnes("700")
+s2.setLinies("3")
+s1.text3()
+s2.text3()
 
